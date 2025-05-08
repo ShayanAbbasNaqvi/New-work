@@ -1,0 +1,148 @@
+<html>
+<head>
+    <title>My Profile</title>
+    <style>
+      
+      body 
+      {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding-top: 100px; /* Prevent content from hiding behind the banner */
+        }
+       p {
+            color: gold;
+        } 
+      li { 
+        color:gold;
+      }  
+      a{ color:gold; 
+      
+      }
+      ul {
+    list-style-type: none;
+}
+      ul li::before {
+    content: '✓';
+    color: green;
+    margin-right: 6px; 
+    display: inline;
+}
+     ol {
+    list-style-type: none;
+}
+       ol li::before {
+    content: 'x';
+    color: red;
+    margin-right: 6px; 
+    display: inline
+      } 
+      
+      .banner {
+            background-image: url('https://raw.githubusercontent.com/ShayanAbbasNaqvi/Photos/refs/heads/main/dynamic-intense-game-collage-africanamerican-260nw-2477186037.webp'); 
+            background-size: cover;
+            background-position: center;
+            color: gold;
+            padding: 30px 0;
+            font-size: 48px;
+            font-weight: bold;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .section {
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .side-by-side {
+            display: inline-block;
+            width: 45%;
+            border: 5px solid white;
+            padding: 15px;
+            margin: 10px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+  
+
+    <div class="banner">Shayan Naqvi</div>
+
+    <div class="section">
+        <p>Hi, my name is Shayan Naqvi. I'm a 7th-grade student at Rise Academy, where I'm always looking for new ways to learn and grow​.</p>
+    </div>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+  <a href="projects.html"> Travel Logs</a>
+</nav>
+  
+   <div class="side-by-side">  
+        <h3> Travel log </h3>  
+        <div class="side-by-side"> 
+          <style>
+    .main-box {
+      border: 2px solid #333;
+      padding: 20px;
+      width: fit-content;
+      background-color: #eee;
+    }
+
+    .inner-container {
+      display: flex;
+      gap: 20px; /* space between inner boxes */
+      margin-top: 20px;
+    }
+
+    .box {
+      border: 1px solid #aaa;
+      padding: 15px;
+      background-color: white;
+      width: 200px;
+    }
+  </style>
+        
+        <h3> Discovered </h3>  
+          <ul>
+          
+       <li>Canada</li>
+       <li>France</li>
+       <li>Switzerland</li>
+       <li>Turkey</li>
+       <li>Iraq</li>
+       <li>United Arab Emirates</li>
+       <li>Italy</li>
+       <li>UK</li>
+       <li>Hongkong</li>
+       <li>Taiwan</li>
+       <li>Czech Republic</li> 
+        </ul>   
+        </div>
+        
+        <div class="side-by-side">
+
+        <h3> Coming soon! </h3> 
+        <ol>
+        <li> Iran </li> 
+        <li> New Zealand </li>
+        <li> Kenya </li> 
+        <li> Germany </li> 
+        <li> Spain </li> 
+        <li> Saudi Arabia </li>
+        </ol> 
+        
+        </div>
+
+        
+     
+</body>
+</html>
